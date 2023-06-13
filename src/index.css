@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  @apply rounded-full py-2 px-6 ml-16 uppercase text-xs font-semibold cursor-pointer tracking-wider hover:bg-slate-400 hover:text-black hover:font-semibold duration-500;
+}
+.spinner-circle {
+  @apply opacity-25;
+}
+.spinner-path {
+  @apply opacity-75;
+  fill: currentColor;
+}
